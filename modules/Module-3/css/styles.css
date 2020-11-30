@@ -1,0 +1,147 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: yellow;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header {
+  background-color: yellow !important;
+}
+
+#logo-img {
+  background: url('images/dummy small.png') no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+
+}
+.navbar-brand p {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: lightgrey;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header {
+  background-color: white;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+/* END HEADER */
+
+/* BODY */
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bodycolor1 {
+  background-color: lightgrey;
+  padding-top: 30px;
+}
+
+.row {
+  margin-top: 50px
+  
+}
+
+.container-flow p {
+  background-color: lightgrey;
+  padding: 50px;
+  
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('images/dummy small.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 18px; 
+  }
+  .navbar-brand p { 
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+
+  }
+  /* End Header */
+
+}

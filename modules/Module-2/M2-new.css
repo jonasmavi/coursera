@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	margin-bottom: 40px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+h3 {
+	margin: 10px;
+}
+
+.kleine-box-1 {
+	border: 1px solid black;
+    top: 0px;
+    right: 0px;
+    width: 140px;
+    text-align: center;
+    background-color: yellow;
+    position: absolute;
+    display: table;
+    
+  
+ 
+}
+
+.kleine-box-2 {
+	border: 1px solid black;
+    top: 0px;
+    right: 0px;
+    width: 140px;
+    text-align: center;
+    background-color: green;
+    position: absolute;
+    display: table;
+
+}
+
+.kleine-box-3 {
+	border: 1px solid black;
+    top: 0px;
+    right: 0px;
+    width: 140px;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    display: table;
+
+}
+
+
+p {
+	width: 100%;
+	height: auto;
+	padding: 40px 40px 40px 40px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: !important helvetica;
+	font-size: 18px;
+	color:black;
+}
+
+.box1 {
+    width: 100px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.box2 {
+    width: 100px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    padding-top: 30px;
+
+}
+
+.box3 {
+    width: 100px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    position: relative;
+    padding-top: 30px;
+
+
+}
+
+/*Responsive Framework */
+
+.row {
+	width: 100%;
+}
+/******LARGE DEVICES ONLY *******/
+
+ @media (min-width: 992px) {
+ 	.box1, .box2, .box3
+ 	{
+ 		float: left;
+ 	} 
+ 	.box1 {
+ 		width: 30%;
+
+ 	}
+ 	.box2 {
+ 		width: 30%;
+ 	}
+ 	.box3 {
+ 		width: 30%;
+ 		}
+ 	}
+
+
+/******TABLET DEVICES ONLY *******/
+ 	@media (max-width: 991px) {
+ 	.box1, .box2, .box3
+ 	{
+ 		float: left;
+ 	} 
+ 	.box1 {
+ 		width: 40%;
+
+ 	}
+ 	.box2 {
+ 		width: 40%;
+ 	}
+ 	.box3 {
+ 		width: 100%;
+ 		}
+ 	}
+
+
+/******MOBILE DEVICES ONLY *******/
+
+ 	@media (max-width: 767px) {
+ 	.box1, .box2, .box3
+ 	{
+ 		float: left;
+ 	} 
+ 	.box1 {
+ 		width: 100%;
+ 	}
+ 	.box2 {
+ 		width: 100%;
+ 	}
+ 	.box3 {
+ 		width: 100%;
+ 		}
+ 	}
